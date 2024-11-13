@@ -1,0 +1,22 @@
+{
+  "name": "combine-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "flebee-tt": "ts-node src/combine-files.ts -p /Users/leo/projects/iFIT/Fleebe-TT/Fleebe-TT-Front -o output-fleebe-tt.txt -d node_modules,.next,public,build,translate -f package-lock.json,.npmrc -e .png,.ico -x '._env*'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/minimatch": "^5.1.2",
+    "@types/node": "^22.9.0",
+    "commander": "^12.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "minimatch": "^5.1.6"
+  }
+}
