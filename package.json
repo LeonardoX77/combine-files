@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "flebee-tt": "ts-node src/combine-files.ts -p /Users/leo/projects/iFIT/Fleebe-TT/Fleebe-TT-Front -o output-fleebe-tt.txt -d node_modules,.next,public,build,translate -f package-lock.json,.npmrc -e .png,.ico -x '._env*'"
+    "flebee-tt-fe": "ts-node src/combine-files.ts -p /Users/leo/projects/iFIT/Fleebe-TT/Fleebe-TT-Front -o output-fleebe-tt-fe.txt -d node_modules,.next,public,build,translate -f package-lock.json,.npmrc -e .png,.ico -x '._env*'",
+    "flebee-tt-be": "ts-node src/combine-files.ts -p /Users/leo/projects/iFIT/Fleebe-TT/Fleebe-TT-Back -o output-fleebe-tt-be.txt -d bin,obj,build,Migrations,Areas,wwwroot,Views,DTOs,Interfaces,Seeds -f .DS_Store,.gitignore,.npmrc,.nupkg -e .png,.ico,.xml,.json,.config,.DotSettings,.cd -x 'SharedResources*,DTO*'"
   },
   "keywords": [],
   "author": "",
