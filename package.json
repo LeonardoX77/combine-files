@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fleebe-tt-fe": "ts-node src/combine-files.ts -p /Users/leo/projects/iFIT/Fleebe-TT/Fleebe-TT-Front -o ./output/fleebe-tt-fe.txt -d node_modules,.next,public,build,translate -f package-lock.json,.npmrc -e .png,.ico -x '._env*'",
-    "fleebe-tt-be": "bash ./scripts/flebee-tt-be.sh"
+    "fleebe-tt-fe": "bash ./scripts/flebee-tt-fe.sh",
+    "fleebe-tt-be": "bash ./scripts/flebee-tt-be.sh",
+    "fleebe-tm-be": "bash ./scripts/flebee-tm-be.sh"
   },
   "keywords": [],
   "author": "",
